@@ -1,0 +1,56 @@
+.bardiv{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:1%;
+}
+.searchbar{
+    float :right;
+    width: 15em;
+    height: 2em;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+.bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 3em;
+}
+.deals{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 2em 0em 6em 0em;
+
+}
+.deals>a{
+    width:150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e0e3b;
+    text-decoration: none;
+
+}
+.deals>a img{
+    width: 84px;
+    height: 84px;
+}
+.deals>a p{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #fd2e70;
+    padding: 0.4em 0em 0.4em 0em ;
+    border-radius: 0px 0px 5px 5px;
+}

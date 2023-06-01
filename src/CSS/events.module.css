@@ -1,0 +1,135 @@
+.searchbox{
+    float: right;
+    width: 15%;
+    height: 2em;
+    margin:0em 1em 0em 0em;
+    background: #18182b;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: white;
+}
+.events{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin: 3em 0em 4em 0em;
+    flex-wrap: wrap;
+}
+.events>a{
+    width:8em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e0e3b;
+    text-decoration: none;
+    margin: 1em 0em 1em 0em;
+
+
+}
+.events>a img{
+    width: 60%;
+    height: 80%;
+}
+.events>a p{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #fd2e70;
+    padding: 0.4em 0em 0.4em 0em ;
+    border-radius: 0px 0px 5px 5px;
+}
+.middiv_filters_events{
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+}
+.filterdiv{
+    width: 20%;
+    height: auto;
+}
+.filterdiv>div{
+    min-height: 50px;
+    height: auto;
+    margin-bottom:2em;
+}
+.eventcardsdiv{
+    width:65%;
+    display:grid;
+    gap:2em;
+    grid-template-columns: repeat(2,1fr);
+}
+.head{
+    color:white;
+    background-color: #fd2e70;
+    padding: 0.4em 0em 0.4em 1em ;
+    border-radius: 0px 0px 5px 5px;
+}
+.cityselector{
+    width: 100%;
+    height: 3em;
+    border:none;
+    background: #0F0F3B;
+}
+.musictype{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.musictype>p{
+    border: 1px solid #5f5c63;
+    padding:0.2em;
+    border-radius:5px;
+    color:#5f5c63;
+    cursor:pointer;
+}
+.genres{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.genres>p{
+    border: 1px solid #5f5c63;
+    padding:0.2em;
+    border-radius:5px;
+    color:#5f5c63;
+    cursor:pointer;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .searchbox{
+        float: right;
+        width: 35%;
+        height: 1.5em;
+        margin:1.5em 1em 0em 0em;
+        background: #18182b;
+        box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        color: white;
+    }
+    .eventcardsdiv{
+        width:65%;
+        display:grid;
+        gap:2em;
+        grid-template-columns: repeat(1,1fr);
+        flex-wrap: wrap;
+    }
+    .middiv_filters_events{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .filterdiv{
+        width: 20%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .drop{
+        font-weight: 600;
+        
+    }
+}

@@ -1,0 +1,90 @@
+.bardiv{
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:1%;
+}
+.searchdiv_middlediv{
+    margin-top: 7em;
+}
+.searchbar{
+    float :right;
+    width: 15em;
+    height: 2em;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+.bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 3em;
+}
+.middiv_filters_rests{
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:2em;
+}
+.filtersDiv{
+    min-width: 15%;
+    height: auto;
+}
+.filtersDiv>div{
+    min-height: 10em;
+    height: auto;
+    margin-bottom:2em;
+    /* border:1px solid red; */
+
+}
+.head{
+    color:white;
+    background-color: #fd2e70;
+    padding: 0.4em 0em 0.4em 1em ;
+    border-radius: 0px 0px 5px 5px;
+}
+.cityselector{
+    width: 100%;
+    height: 3em;
+    border:none;
+    background: #0F0F3B;
+}
+.featuresdiv{
+    display: flex;
+    justify-content: center;
+    /* border:1px solid red; */
+    
+}
+.feature_select{
+    width: 80%;
+    height: 2.5em;
+    left: 73px;
+    top: 1119px;
+    color: #787878;
+    border:none;
+    background: #0F0F3B;
+    border-radius: 0em 0em 1em 1em ;
+    margin-top: 0.1em;
+}
+select option{
+    min-height: 1.5em;
+}
+select option:hover{
+    color: red;
+}
+
+
+.restaurants{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2em;
+}

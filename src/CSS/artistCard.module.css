@@ -1,0 +1,55 @@
+.carddiv{
+    padding:0em 0em 1em 0em;
+    color: white;
+    height: auto;
+}
+.belowimg{
+    padding: 0em 1em 0em 1em;
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.img{
+    object-fit: contain;
+    width: 100%;
+}
+.type_meter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.genre{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.genre>div{
+    border: 1px solid #5f5c63;
+    padding:0.2em;
+    border-radius:0.4em;
+    color:#5f5c63;
+    cursor:pointer;
+    margin-top: 0.1em;
+}
+
+.genre_book{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+   background-color:#d71263;
+   border: none;
+   color: white;
+   height: 100%;
+   border-radius: 0.6em;
+   padding: 0.4em;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    
+}

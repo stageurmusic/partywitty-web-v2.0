@@ -1,0 +1,14 @@
+.resCardDiv{
+    width: 300px;
+    height: 350px;
+    background: #0F0F3B;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.resCardImage{
+    object-fit: fill;
+    height:60%;
+    border-radius:15px;
+    width: 100%;
+    
+}

@@ -1,0 +1,18 @@
+.sliderContainer{
+    height: auto;
+    
+}
+.slideimg{ 
+    height:18em;
+    width:99%;
+    object-fit: cover;
+    
+}
+.slideimg:hover{
+    transform: scale(0.95);
+    transition: transform 0.5s;
+}
+.slideimg:not(:hover){
+    transform: scale(1);
+    transition: transform 0.5s;
+}

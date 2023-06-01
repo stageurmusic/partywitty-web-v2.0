@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:15%;
+    position: absolute;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 5em;
+    /* left: "calc(50% - 1366px/2)"; */
+    font-family: 'Exo 2', sans-serif;
+    background: rgba(1, 1, 1, 0.4);
+    z-index:5;
+    backdrop-filter : blur(5.5px);
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.img_locationDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:45%;
+    /* border: 1px solid red; */
+}
+.locationSelect{
+    border:none;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+    width: 30%;
+    height: 1.5em;
+    margin-left: -100px;
+    opacity: 0.7;
+    /* border: 1px solid red; */
+    font-size:1em;
+}
+.logo{
+    width:25%;
+    height: 20%;
+    /* border: 1px solid red */
+}
+.logo:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+.logo:not(:hover){
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+.navlist{
+    display: flex;
+    gap: 1%;
+    width: 50%;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.navlist>a{
+    text-decoration: none;
+    color:black;
+    padding:0.4em;
+    border-radius: 0.4em;
+    font-size:1em;
+    height:100%;
+
+}
+.navlist>a:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border-top: 1px solid red ;
+}
+.navlist>a:not(:hover){
+    transform: scale(1);
+    transition: transform 0.5s;
+
+}
+.signup{
+    background-color: red;
+}
+
+@media only screen and (min-width:300px) and (max-width:768px) {
+    /* Your styles for smartphones go here */
+    .navbar{
+        height: 3em;
+    }
+    .logo{
+        width:40%;
+    }
+    .img_locationDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:40%;
+    }
+    .locationSelect{
+        border:none;
+        background: #4A4A5F;
+        box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 0.5em;
+        width: 40%;
+        height: 1em;
+        /* margin-left: -5em; */
+        opacity: 0.7;
+        font-size:0.5em;
+    }
+    .navlist{
+        width: 90%;
+
+    }
+    .navlist>a{
+        text-decoration: none;
+        color:black;
+        border-radius: 0.4em;
+        width: 100%;
+        font-size: 0.1em;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    /* Your styles for desktops go here */
+    .navbar{
+        width: 100%;
+        height: 3rem;
+        font-size: 30%;
+    }
+    .img_locationDiv{
+        width:45%;
+        /* border: 1px solid red; */
+    }
+    .locationSelect{
+        width: 30%;
+        height: 2em;
+        margin-left: -100px;
+        opacity: 0.7;
+        font-size:2em;
+    }
+    .logo{
+        width:25%;
+        height: 25%;
+    }
+    .navlist{
+        width: 70%;
+        gap: 0.5%;
+
+    }
+    .navlist>a{
+        font-size:0.6rem; 
+
+    }
+  }
+@media only screen and (min-width: 1200px) {
+    /* Your styles for large desktops go here */
+  }
+@media only screen and (aspect-ratio: 16/9) {
+    /* Your styles for devices with a 16:9 aspect ratio go here */
+  }
+      
+  

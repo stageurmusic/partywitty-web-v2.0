@@ -1,0 +1,51 @@
+.bardiv{
+    margin-top: 7em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:1%;
+}
+.searchbar{
+    float :right;
+    width: 25em;
+    height: 2em;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+.bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    background: #4A4A5F;
+    box-shadow: inset -5px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 3em;
+}
+.middiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin:2em 0em 0em 0em
+
+}
+.middiv>div{
+    border:1px solid red;
+}
+/* left div of middle part, contains total details of club */
+.AboutDetailsDiv{
+    width:55%;
+    height:500em;
+    color:white;
+}
+.ClubImage{
+    width: 100%;
+    height: 25em;
+    object-fit: fill;
+}
+.BookingDetailsReserveNowDiv{
+    width:25%;
+    height:25em;
+}
